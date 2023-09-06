@@ -1,0 +1,230 @@
+# Q
+How do I get a free Salesforce Demo org with Omnistudio?
+# A
+There are many different ways to get an OmniStudio enabled Salesforce org you can play with, depending upon your relationship with Salesforce (employee, partner, customer, or, um, trailheader?). Regardless, you can get an OmniStudio enabled org with a 180-day lifespan for free here:
+
+https://trailhead.salesforce.com/promo/orgs/omnistudiotrails
+
+# Q
+How do I get an OpenAI API Key?
+# A
+If you don’t have an Open AI platform account (ChatGPT plus or Dall-E does not count), go here to create one:
+
+https://platform.openai.com/signup
+
+During the process, you’ll need to set a usage limit. I picked $10, under the assumption that I’ll never go over it when playing with it but if I do something’s gone terribly wrong. Hopefully, you won’t even have to go over the free credits they give you.
+
+Make sure you pick an amount you are comfortable with. You never know who might take a liking to your project and demo the heck out of it.
+
+You will get a key from Open AI that looks like:
+
+SK-...
+
+With the dots replaced with the actual key.
+
+Make sure you save your API key somewhere because you only get shown it once. If you forget it, you’ll have to generate a new key. That’s not a big inconvenience, unless you excel at losing it.
+
+# Q
+How do I set up remote site settings in Salesforce to let me call OpenAI's API?
+# A
+The first step is to go into the Remote Site Settings in Salesforce Setup and tell the org it’s OK to access OpenAI. Press the “New Remote Site” button, and then enter the URL (and name) for OpenAI:
+
+* Name: OpenAI
+* URL: https://api.openai.com
+
+Press Save, and you’re allowed to make calls to the API.
+
+# Q
+How do I build a simple integration procedure to test my ability to call OpenAI's API?
+# A
+1. From the OmniStudio Integration Procedures page, click the new button to start creating our Integration Procedure. When you do that, you’ll be asked to enter the name, type, and subtype for the new procedure:
+
+* Type: OpenAI
+
+* SubType: DirectTest
+
+* Name: anything you like, but I tend to use the type and subtype together in some form
+
+When you’ve entered that data, press Save at the bottom to allow you to start editing your Integration Procedure.
+
+Now, drag out an HTTP Action element. You will configure it like this:
+* The Element Name is getModels (to be clear, it doesn’t matter, except that the name here is used in the Response action and so the two have to match.)
+* The HTTP Path needs to be “https://api.openai.com/v1/models”.
+* The HTTP Method is “GET”
+
+Expand the REST OPTIONS section and click “Add New Header:
+
+* Key=Authorization
+* Value=Bearer sk-your OpenAI key3
+
+If you preview the Integration Procedure now, you won’t see a result, but in the Debug Log you should see the full response from Open AI. Depending upon how impatient you are you can preview or not.
+
+Drag out a Response Action in your Integration Procedure. Configure it like this:
+
+* The Send JSON Path is getModels:data
+* Preview it, and you should see the list of models in the response.
+
+Go back to the Properties and click on “Procedure Configuration” and then click on the 
+“Activate Version” button at the bottom.
+
+Congratulations, you have a working integration procedure!!!
+
+# Q
+How do I build a product recommendation engine for life insurance using GPT and Salesforce?
+# A
+You will need to create an Integration Procedure and an OmniScript.
+
+First, the integration procedure:
+
+It will consist of 4 elements.  The first is a set values, the second a HTTP action, the third another set values, and the fourth a response action.
+
+The first set values prepares the input to GPT.  Call it "gptInputs", and set the name "inputs" to the following JSON structure:
+
+	{
+		"model": "gpt-3.5-turbo",
+		"temperature": 0.2,
+		"max_tokens": 2048,
+		"messages": [
+			{
+				"role": "system",
+				"content": "%prompts:gptSystem%"
+			},
+			{
+				"role": "user",
+				"content": "%prompts:gptQuestion%"
+			}
+		]
+	}
+	
+Next, create an HTTP action named "callGPT". Set the following values in it:
+
+	"sendJSONPath": "gptInputs:inputs"
+	"restPath": "/v1/chat/completions"
+	"restMethod": "POST"  
+	"headers": { "Content-Type": "application/json" }
+	"namedCredential": "OpenAI"
+	
+Note that you need to have a pre-existing named credential called OpenAI.
+	
+Now, create a set vallues called "parseResult". Set the following values in it:
+
+	"responses": "=DESERIALIZE(%callGPT:choices|1:message:content%)"
+	
+Finally, create a Response Action with the following parameters:
+
+    "sendJSONPath": "parseResult:responses"
+    "sendJSONNode": "response"
+    
+
+Second, the OmniScript:
+
+The first element is a Set Values, setting the following:
+
+	  "elementValueMap": {
+		"thePrompt": "You are an experienced life insurance agent.  It is your job to recommend the best policy type for your customer, based upon their needs. \n\nIn addition, for the type of policy you recommend, you should describe it's pluses and minuses in detail and be explicit about how it works. \n\nA customer will tell you what they need in the way of life insurance.   From their needs, you should be able to understand how long they need insurance for, what the purpose is, and whether they are looking for the cheapest insurance or one that is more expensive but with more value. \n\nYour response should be in JSON, and include the following elements:\n\n* policy_type\n* policy_duration\n* purpose\n* pluses, an array of advantages\n* minuses, an array of disadvantages\n* full_text, the complete explanation of all elements of the recommendation"
+	  },
+
+Second is a step.  The step will have the following elements:
+* a Text Area called 'taNeeds'
+* An intgegration procedure action that calls our integration procedure.  It will have an extra payload that looks like:
+
+		"prompts": {
+		  "gptSystem": "%thePrompt%",
+		  "gptQuestion": "%taNeeds%"
+		}
+
+Finally, two formula fields are put on the step:
+
+* Policy Type, with the formula %response:policy_type%
+* Policy Duration, with the formula %response:policy_duration%
+
+You can augment the UI with formatting, demo buttons, etc.
+
+# Q
+How do I create a named credential to work with Salesforce and OpenAI?
+# A
+You need the following:
+
+1. A permission set
+2. An external credential
+
+Assuming you have 1 and 2, then go to Named Credentials in Setup:
+
+* Press the new button
+* Enter “OpenAI” for the name and label.
+* Enter “https://api.openai.com” for the URL.
+Pick the name of your external credential for the External Credential.
+* Click the box that says “Allow Formulas in HTTP Header”.
+* Down at the bottom there’s a field called “Allowed Namespaces.” Put in it the name of your installed package we discovered above. If you don’t you get an error message like “The callout couldn't access the endpoint. You might not have the required permissions, or the named credential OpenAI might not exist."
+* Press Save
+
+# Q
+How do I create an external credential?
+# A
+You need the following:
+
+1. A permission set
+
+To create the external credential, do the following:
+
+In set up, go to the External Credentials screen and then press the New button.
+
+* Enter OpenAIec (that’s a capital i not an el) for both the name and label. Pick an authentication protocol of Custom
+* Press Save.
+* Click on the New button in Principals
+* For Parameter Name, enter OpenAI
+* Click add for the Authentication Parameters, and give it a name of “OpenAIKey” with a value of your secret key from OpenAI (the one that starts with sk-…):
+* Press Save
+* Now, click New for Custom Headers, and enter:
+* “Authorization” for Name
+* “Bearer {!$Credential.OpenAIec.OpenAIKey}” for Value
+* Press Save
+* Go back to your permission set created above
+* Click the link “External Credential Principal Access”
+* Press Edit
+* Add in “OpenAIec - OpenAI” and save.
+
+You now have created an external credential.
+
+# Q
+How do I create a permission set?
+# A
+Go into Setup and:
+
+* Search for Permission
+* Select Permission Sets
+* Press New
+* Enter OpenAIApi into the label, hit tab, and it’s copied to API Name.
+* Enter anything you wish for the description.
+* Hit Save
+* On the page for your new permission set, press “Manage Assignments”
+* On the next page click “Add Assignment”
+* On the Select Users to Assign page, select all the users you wish to have OpenAI API access. Especially yourself.
+* Press Next
+* On the next page, press Assign.
+* Press Done … and you’re done!
+
+# Q
+What is Retrieval Augmented Generation?
+# A
+Let us say that you wish to create a chatbot that can answer questions about recipes. Not recipes in general, but very specific recipes. Perhaps you’ve published a cookbook, and you’d like to help your readers out1. You don’t want GPT guessing about how to cook your recipes, you want it to know. But your recipes change all the time because of updates, new additions, and recipes that become obsolescent (that ancient aspic recipe isn’t getting a lot of love lately). You don’t want to train or fine tune an LLM today that will be out of date tomorrow2.
+
+Instead, you’re decide to use a technique called Retrieval Augmented Generation (RAG)3. Here’s how it works.
+
+First, the user types in their question. Next, you look, quickly, through all your recipes to see which ones may be relevant. Then, you feed those recipes and the user’s question together to GPT. Since GPT has the complete documentation for relevant recipe(s), it can answer the question appropriately4.
+
+As always, this is a bit of a simplification, but not that much! And the code to do this is pretty easy, especially since the newsletter has already covered calling GPT and working with embeddings!
+
+# Q
+How do I build a "retrieval augmented generation" application?
+# A
+You need to follow these steps:
+
+1. Find all the documents you want to use in your application.  The documents can be things like documentation, notes, articles, reference material, etc.
+2. Break them up into reasonably sized chunks if they are very large.
+3. Compute the embeddings for each document, and store in a database like Pinecone
+4. When the user asks a question, compute the embedding for it.
+5. Find the most similar documents in your database using embeddings and cosine similarity.
+6. Include the most relevant documents (up to a size limit) in a GPT call along with the user's question.
+7. Display the results.
+
