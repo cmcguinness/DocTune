@@ -26,15 +26,15 @@
 """
 
 
-def readdocs():
+def readdocs(filename='QandA.txt'):
 
     # Read in the entire set of q & a documents as a series of lines of text
-    with open('QandA.txt', 'r') as f:
+    with open(filename, 'r') as f:
         qa_text = f.readlines()
 
     # I expect that the first line of the file will be a # Q, but this allows
     # me to tolerate lines at the beginning of the file that are not
-    # (presumably blank lines)
+    # (perhaps blank or comments)
     state = 'BEGIN'
 
     q_n_a = []          # What we will ultimately return
