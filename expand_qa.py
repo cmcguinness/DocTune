@@ -63,12 +63,12 @@ def ask_gpt(system: str, user: str):
 
 # Loop over each Q&A in our list and perform the magic!
 for qa in qa_list:
-    write_qa(qa['q'], qa['a'])
+    write_qa(qa['q'].strip(), qa['a'].strip())
     print(f'Q: {qa["q"]:32}...')
     variations = ask_gpt(sys_prompt, qa['q'])
     for v in variations:
         print(f'     V: {v:32}...')
-        write_qa(v, qa['a'])
+        write_qa(v, qa['a'].strip())
 
 # Done!
 new_docs.close()
