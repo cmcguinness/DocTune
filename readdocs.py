@@ -26,7 +26,7 @@
 """
 
 
-def readdocs(filename='QandA.txt'):
+def readdocs(filename):
 
     # Read in the entire set of q & a documents as a series of lines of text
     with open(filename, 'r') as f:
@@ -56,7 +56,7 @@ def readdocs(filename='QandA.txt'):
             current['q'] = current['q'] + line + '\n'
 
         if state == 'ANSWER':
-            current['a'] = current['a'] + line + '\\n'
+            current['a'] = current['a'] + line + '\n'
 
     # The only way it is None is if the file is blank, but might as well test...
     if current is not None:

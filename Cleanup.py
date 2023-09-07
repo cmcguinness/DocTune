@@ -30,8 +30,11 @@ def delete_tunings():
     tunes = openai.FineTuningJob.list()
     print(tunes)
     for t in tunes['data']:
-        print(f'id={t["id"]}, status={t["status"]}, results={t["fine_tuned_model"]}')
-        openai.Model.delete(t["fine_tuned_model"])
+        try:
+            openai.Model.delete(t["fine_tuned_model"])
+            print(f'Deleted id={t["id"]}, status={t["status"]}, results={t["fine_tuned_model"]}')
+        except openai.error.InvalidRequestError as e:
+            pass    # Does not exist, so ignore error
 
 print('*** WARNING ***')
 print('This will delete all files and all private models on your OpenAI account.')

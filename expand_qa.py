@@ -11,14 +11,20 @@ import json
 import openai
 from readdocs import readdocs
 
+print("Directories in inputs:")
+dirs = os.listdir('inputs')
+for d in dirs:
+    print(d)
+
+project = input('Please enter the subdirectory that holds your inputs: ')
 # The source
-qa_list = readdocs()
+qa_list = readdocs(f'inputs/{project}/OriginalQandA.txt')
 
 # Make sure you have the environment variable set before running!
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Where we write the expanded Q&A to
-new_docs = open('expanded_qa.txt','w')
+new_docs = open(f'inputs/{project}/QandA.txt','w')
 
 # How we instruct GPT to generate our variations
 sys_prompt = 'You are a system that creates variations of text while retaining the meaning.  I will enter some text and you are to give me back 10 variations of the text in a JSON array with the following structure:\n\n{\n  "variations" : []\n}'
