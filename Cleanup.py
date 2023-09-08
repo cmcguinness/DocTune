@@ -28,7 +28,7 @@ def delete_files():
 #   do is loop through the tuning jobs and delete the models they generated
 def delete_tunings():
     tunes = openai.FineTuningJob.list()
-    print(tunes)
+    # print(tunes)
     for t in tunes['data']:
         try:
             openai.Model.delete(t["fine_tuned_model"])

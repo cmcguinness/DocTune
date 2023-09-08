@@ -3,6 +3,127 @@ I need an insurance policy to protect my wife.
 # A
 {
     "type": "more information",
+    "message": "If you give me a few more details I can make a tailored recommendation."
+    "questions": [
+        "What is the total $ amount that you need for this?",
+        "What is the length of time you will need this for?",
+        "Will you want to use the policy as a savings vehicle as well?"
+    ]
+}
+# Q
+I require an insurance policy to safeguard my spouse.
+# A
+{
+    "type": "more information",
+    "message": "If you give me a few more details I can make a tailored recommendation."
+    "questions": [
+        "What is the total $ amount that you need for this?",
+        "What is the length of time you will need this for?",
+        "Will you want to use the policy as a savings vehicle as well?"
+    ]
+}
+# Q
+I am in need of an insurance policy to ensure the protection of my wife.
+# A
+{
+    "type": "more information",
+    "message": "If you give me a few more details I can make a tailored recommendation."
+    "questions": [
+        "What is the total $ amount that you need for this?",
+        "What is the length of time you will need this for?",
+        "Will you want to use the policy as a savings vehicle as well?"
+    ]
+}
+# Q
+My wife requires an insurance policy for her protection.
+# A
+{
+    "type": "more information",
+    "message": "If you give me a few more details I can make a tailored recommendation."
+    "questions": [
+        "What is the total $ amount that you need for this?",
+        "What is the length of time you will need this for?",
+        "Will you want to use the policy as a savings vehicle as well?"
+    ]
+}
+# Q
+I am looking for an insurance policy to provide security for my wife.
+# A
+{
+    "type": "more information",
+    "message": "If you give me a few more details I can make a tailored recommendation."
+    "questions": [
+        "What is the total $ amount that you need for this?",
+        "What is the length of time you will need this for?",
+        "Will you want to use the policy as a savings vehicle as well?"
+    ]
+}
+# Q
+To protect my wife, I need an insurance policy.
+# A
+{
+    "type": "more information",
+    "message": "If you give me a few more details I can make a tailored recommendation."
+    "questions": [
+        "What is the total $ amount that you need for this?",
+        "What is the length of time you will need this for?",
+        "Will you want to use the policy as a savings vehicle as well?"
+    ]
+}
+# Q
+I want to obtain an insurance policy to keep my wife safe.
+# A
+{
+    "type": "more information",
+    "message": "If you give me a few more details I can make a tailored recommendation."
+    "questions": [
+        "What is the total $ amount that you need for this?",
+        "What is the length of time you will need this for?",
+        "Will you want to use the policy as a savings vehicle as well?"
+    ]
+}
+# Q
+My wife needs an insurance policy to ensure her well-being.
+# A
+{
+    "type": "more information",
+    "message": "If you give me a few more details I can make a tailored recommendation."
+    "questions": [
+        "What is the total $ amount that you need for this?",
+        "What is the length of time you will need this for?",
+        "Will you want to use the policy as a savings vehicle as well?"
+    ]
+}
+# Q
+I am seeking an insurance policy to guarantee the safety of my wife.
+# A
+{
+    "type": "more information",
+    "message": "If you give me a few more details I can make a tailored recommendation."
+    "questions": [
+        "What is the total $ amount that you need for this?",
+        "What is the length of time you will need this for?",
+        "Will you want to use the policy as a savings vehicle as well?"
+    ]
+}
+# Q
+To safeguard my wife, I need an insurance policy.
+# A
+{
+    "type": "more information",
+    "message": "If you give me a few more details I can make a tailored recommendation."
+    "questions": [
+        "What is the total $ amount that you need for this?",
+        "What is the length of time you will need this for?",
+        "Will you want to use the policy as a savings vehicle as well?"
+    ]
+}
+# Q
+I am interested in acquiring an insurance policy to protect my wife.
+# A
+{
+    "type": "more information",
+    "message": "If you give me a few more details I can make a tailored recommendation."
     "questions": [
         "What is the total $ amount that you need for this?",
         "What is the length of time you will need this for?",
@@ -17,7 +138,147 @@ Which life insurance company is best?
     "message": "While I am quite fond of our company, I am unable to recommend life insurance companies, only specific policies."
 }
 # Q
+Which is the top life insurance company?
+# A
+{
+    "type": "off topic",
+    "message": "While I am quite fond of our company, I am unable to recommend life insurance companies, only specific policies."
+}
+# Q
+What is the best life insurance company?
+# A
+{
+    "type": "off topic",
+    "message": "While I am quite fond of our company, I am unable to recommend life insurance companies, only specific policies."
+}
+# Q
+Which life insurance company is considered the best?
+# A
+{
+    "type": "off topic",
+    "message": "While I am quite fond of our company, I am unable to recommend life insurance companies, only specific policies."
+}
+# Q
+Which company offers the best life insurance?
+# A
+{
+    "type": "off topic",
+    "message": "While I am quite fond of our company, I am unable to recommend life insurance companies, only specific policies."
+}
+# Q
+What is the most recommended life insurance company?
+# A
+{
+    "type": "off topic",
+    "message": "While I am quite fond of our company, I am unable to recommend life insurance companies, only specific policies."
+}
+# Q
+Which life insurance company is the most reliable?
+# A
+{
+    "type": "off topic",
+    "message": "While I am quite fond of our company, I am unable to recommend life insurance companies, only specific policies."
+}
+# Q
+Which life insurance company has the highest ratings?
+# A
+{
+    "type": "off topic",
+    "message": "While I am quite fond of our company, I am unable to recommend life insurance companies, only specific policies."
+}
+# Q
+What are the top-rated life insurance companies?
+# A
+{
+    "type": "off topic",
+    "message": "While I am quite fond of our company, I am unable to recommend life insurance companies, only specific policies."
+}
+# Q
+Which life insurance company is known for its quality?
+# A
+{
+    "type": "off topic",
+    "message": "While I am quite fond of our company, I am unable to recommend life insurance companies, only specific policies."
+}
+# Q
+Which company provides the best life insurance coverage?
+# A
+{
+    "type": "off topic",
+    "message": "While I am quite fond of our company, I am unable to recommend life insurance companies, only specific policies."
+}
+# Q
 Is life insurance a good investment?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+Is life insurance a wise investment?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+Is life insurance a smart investment?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+Is life insurance a worthwhile investment?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+Is life insurance a prudent investment?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+Is life insurance a sound investment?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+Is life insurance a profitable investment?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+Is life insurance a beneficial investment?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+Is life insurance a valuable investment?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+Is life insurance a recommended investment?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+Is life insurance a favorable investment?
 # A
 {
     "type": "general information",
@@ -31,6 +292,76 @@ Which is better, whole life or term?
     "message": "The choice of which is better depends upon your specific needs. If you tell me your needs I can help identify the best policy for you."
 }
 # Q
+What is the superior option, whole life or term?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs. If you tell me your needs I can help identify the best policy for you."
+}
+# Q
+When comparing whole life and term, which one is better?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs. If you tell me your needs I can help identify the best policy for you."
+}
+# Q
+Which option is preferable, whole life or term?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs. If you tell me your needs I can help identify the best policy for you."
+}
+# Q
+Is whole life or term the better choice?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs. If you tell me your needs I can help identify the best policy for you."
+}
+# Q
+When it comes to whole life and term, which one is the better option?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs. If you tell me your needs I can help identify the best policy for you."
+}
+# Q
+Which is the more advantageous choice, whole life or term?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs. If you tell me your needs I can help identify the best policy for you."
+}
+# Q
+What are the pros and cons of whole life versus term?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs. If you tell me your needs I can help identify the best policy for you."
+}
+# Q
+When deciding between whole life and term, which one is the recommended option?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs. If you tell me your needs I can help identify the best policy for you."
+}
+# Q
+Which is the more favorable option, whole life or term?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs. If you tell me your needs I can help identify the best policy for you."
+}
+# Q
+What factors should be considered when choosing between whole life and term?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs. If you tell me your needs I can help identify the best policy for you."
+}
+# Q
 Why do I need life insurance?
 # A
 {
@@ -38,7 +369,147 @@ Why do I need life insurance?
     "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
 }
 # Q
+What is the importance of having life insurance?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+What are the reasons to consider life insurance?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+Why should I consider getting life insurance?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+What are the benefits of having life insurance?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+Is life insurance necessary and why?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+What are the advantages of having life insurance?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+Why is life insurance important?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+What are the reasons for needing life insurance?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+What are the key reasons to have life insurance?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
+Why is it important to have life insurance?
+# A
+{
+    "type": "general information",
+    "message": "Life insurance provides financial protection for your dependents in the event of your death. It can help cover funeral costs, remaining medical expenses, mortgage payments, and even college costs for your children."
+}
+# Q
 How much life insurance coverage do I need?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs.  Please tell me a bit more."
+}
+# Q
+What is the appropriate amount of life insurance coverage for me?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs.  Please tell me a bit more."
+}
+# Q
+How do I determine the right life insurance coverage for my needs?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs.  Please tell me a bit more."
+}
+# Q
+What factors should I consider when calculating my life insurance coverage?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs.  Please tell me a bit more."
+}
+# Q
+How can I determine the optimal amount of life insurance coverage?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs.  Please tell me a bit more."
+}
+# Q
+What is the recommended life insurance coverage for someone like me?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs.  Please tell me a bit more."
+}
+# Q
+How much life insurance coverage is sufficient for my situation?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs.  Please tell me a bit more."
+}
+# Q
+What is the ideal amount of life insurance coverage for my circumstances?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs.  Please tell me a bit more."
+}
+# Q
+What factors should I take into account when deciding on my life insurance coverage?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs.  Please tell me a bit more."
+}
+# Q
+How do I calculate the appropriate life insurance coverage for my family?
+# A
+{
+    "type": "general information",
+    "message": "The choice of which is better depends upon your specific needs.  Please tell me a bit more."
+}
+# Q
+What is the right amount of life insurance coverage for my loved ones?
 # A
 {
     "type": "general information",
@@ -57,7 +528,197 @@ How much life insurance coverage do I need?
     ]
 }
 # Q
+What is the appropriate amount of life insurance coverage for me?
+# A
+{
+    "type": "more information",
+    "message": "I need to know a few things about your financial needs",
+    "questions": [
+        "How long do you need insurance coverage for?",
+        "Why do you need insurance? Who is it for? What are their needs?",
+        "Will you want to build up a value in this policy that you can use for retirement or unexpected needs?"
+    ]
+}
+# Q
+How do I determine the right life insurance coverage for my needs?
+# A
+{
+    "type": "more information",
+    "message": "I need to know a few things about your financial needs",
+    "questions": [
+        "How long do you need insurance coverage for?",
+        "Why do you need insurance? Who is it for? What are their needs?",
+        "Will you want to build up a value in this policy that you can use for retirement or unexpected needs?"
+    ]
+}
+# Q
+What factors should I consider when calculating my life insurance coverage?
+# A
+{
+    "type": "more information",
+    "message": "I need to know a few things about your financial needs",
+    "questions": [
+        "How long do you need insurance coverage for?",
+        "Why do you need insurance? Who is it for? What are their needs?",
+        "Will you want to build up a value in this policy that you can use for retirement or unexpected needs?"
+    ]
+}
+# Q
+How can I determine the optimal amount of life insurance coverage?
+# A
+{
+    "type": "more information",
+    "message": "I need to know a few things about your financial needs",
+    "questions": [
+        "How long do you need insurance coverage for?",
+        "Why do you need insurance? Who is it for? What are their needs?",
+        "Will you want to build up a value in this policy that you can use for retirement or unexpected needs?"
+    ]
+}
+# Q
+What is the recommended life insurance coverage for someone like me?
+# A
+{
+    "type": "more information",
+    "message": "I need to know a few things about your financial needs",
+    "questions": [
+        "How long do you need insurance coverage for?",
+        "Why do you need insurance? Who is it for? What are their needs?",
+        "Will you want to build up a value in this policy that you can use for retirement or unexpected needs?"
+    ]
+}
+# Q
+How much life insurance coverage is sufficient for my situation?
+# A
+{
+    "type": "more information",
+    "message": "I need to know a few things about your financial needs",
+    "questions": [
+        "How long do you need insurance coverage for?",
+        "Why do you need insurance? Who is it for? What are their needs?",
+        "Will you want to build up a value in this policy that you can use for retirement or unexpected needs?"
+    ]
+}
+# Q
+What is the ideal amount of life insurance coverage for my circumstances?
+# A
+{
+    "type": "more information",
+    "message": "I need to know a few things about your financial needs",
+    "questions": [
+        "How long do you need insurance coverage for?",
+        "Why do you need insurance? Who is it for? What are their needs?",
+        "Will you want to build up a value in this policy that you can use for retirement or unexpected needs?"
+    ]
+}
+# Q
+What factors should I take into account when deciding on my life insurance coverage?
+# A
+{
+    "type": "more information",
+    "message": "I need to know a few things about your financial needs",
+    "questions": [
+        "How long do you need insurance coverage for?",
+        "Why do you need insurance? Who is it for? What are their needs?",
+        "Will you want to build up a value in this policy that you can use for retirement or unexpected needs?"
+    ]
+}
+# Q
+How do I calculate the appropriate life insurance coverage for my family?
+# A
+{
+    "type": "more information",
+    "message": "I need to know a few things about your financial needs",
+    "questions": [
+        "How long do you need insurance coverage for?",
+        "Why do you need insurance? Who is it for? What are their needs?",
+        "Will you want to build up a value in this policy that you can use for retirement or unexpected needs?"
+    ]
+}
+# Q
+What is the right amount of life insurance coverage for my loved ones?
+# A
+{
+    "type": "more information",
+    "message": "I need to know a few things about your financial needs",
+    "questions": [
+        "How long do you need insurance coverage for?",
+        "Why do you need insurance? Who is it for? What are their needs?",
+        "Will you want to build up a value in this policy that you can use for retirement or unexpected needs?"
+    ]
+}
+# Q
 How much does life insurance cost?
+# A
+{
+    "type": "general information",
+    "message": "The cost varies based on factors such as the type of policy, coverage amount, your age, health condition, and lifestyle choices. Typically, term life insurance is more affordable than whole life insurance."
+}
+# Q
+What is the cost of life insurance?
+# A
+{
+    "type": "general information",
+    "message": "The cost varies based on factors such as the type of policy, coverage amount, your age, health condition, and lifestyle choices. Typically, term life insurance is more affordable than whole life insurance."
+}
+# Q
+What is the price of life insurance?
+# A
+{
+    "type": "general information",
+    "message": "The cost varies based on factors such as the type of policy, coverage amount, your age, health condition, and lifestyle choices. Typically, term life insurance is more affordable than whole life insurance."
+}
+# Q
+How expensive is life insurance?
+# A
+{
+    "type": "general information",
+    "message": "The cost varies based on factors such as the type of policy, coverage amount, your age, health condition, and lifestyle choices. Typically, term life insurance is more affordable than whole life insurance."
+}
+# Q
+What are the costs associated with life insurance?
+# A
+{
+    "type": "general information",
+    "message": "The cost varies based on factors such as the type of policy, coverage amount, your age, health condition, and lifestyle choices. Typically, term life insurance is more affordable than whole life insurance."
+}
+# Q
+How much do I need to pay for life insurance?
+# A
+{
+    "type": "general information",
+    "message": "The cost varies based on factors such as the type of policy, coverage amount, your age, health condition, and lifestyle choices. Typically, term life insurance is more affordable than whole life insurance."
+}
+# Q
+What is the average cost of life insurance?
+# A
+{
+    "type": "general information",
+    "message": "The cost varies based on factors such as the type of policy, coverage amount, your age, health condition, and lifestyle choices. Typically, term life insurance is more affordable than whole life insurance."
+}
+# Q
+What is the cost of life insurance coverage?
+# A
+{
+    "type": "general information",
+    "message": "The cost varies based on factors such as the type of policy, coverage amount, your age, health condition, and lifestyle choices. Typically, term life insurance is more affordable than whole life insurance."
+}
+# Q
+How much does it typically cost for life insurance?
+# A
+{
+    "type": "general information",
+    "message": "The cost varies based on factors such as the type of policy, coverage amount, your age, health condition, and lifestyle choices. Typically, term life insurance is more affordable than whole life insurance."
+}
+# Q
+What is the expense of life insurance?
+# A
+{
+    "type": "general information",
+    "message": "The cost varies based on factors such as the type of policy, coverage amount, your age, health condition, and lifestyle choices. Typically, term life insurance is more affordable than whole life insurance."
+}
+# Q
+What are the fees for life insurance?
 # A
 {
     "type": "general information",
@@ -71,7 +732,147 @@ Can I get life insurance if I have a health condition?
     "message": "Yes, though it may affect the cost of your premiums. Insurance companies consider the severity of the condition and how it's being managed when determining premiums. Some companies specialize in certain health conditions and may offer better rates."
 }
 # Q
+Is it possible to obtain life insurance if I have a pre-existing health condition?
+# A
+{
+    "type": "general information",
+    "message": "Yes, though it may affect the cost of your premiums. Insurance companies consider the severity of the condition and how it's being managed when determining premiums. Some companies specialize in certain health conditions and may offer better rates."
+}
+# Q
+If I have a health condition, can I still qualify for life insurance?
+# A
+{
+    "type": "general information",
+    "message": "Yes, though it may affect the cost of your premiums. Insurance companies consider the severity of the condition and how it's being managed when determining premiums. Some companies specialize in certain health conditions and may offer better rates."
+}
+# Q
+What are my options for life insurance if I have a health condition?
+# A
+{
+    "type": "general information",
+    "message": "Yes, though it may affect the cost of your premiums. Insurance companies consider the severity of the condition and how it's being managed when determining premiums. Some companies specialize in certain health conditions and may offer better rates."
+}
+# Q
+Can individuals with health conditions be eligible for life insurance coverage?
+# A
+{
+    "type": "general information",
+    "message": "Yes, though it may affect the cost of your premiums. Insurance companies consider the severity of the condition and how it's being managed when determining premiums. Some companies specialize in certain health conditions and may offer better rates."
+}
+# Q
+Is it feasible to secure life insurance coverage with a health condition?
+# A
+{
+    "type": "general information",
+    "message": "Yes, though it may affect the cost of your premiums. Insurance companies consider the severity of the condition and how it's being managed when determining premiums. Some companies specialize in certain health conditions and may offer better rates."
+}
+# Q
+Are there life insurance policies available for individuals with health conditions?
+# A
+{
+    "type": "general information",
+    "message": "Yes, though it may affect the cost of your premiums. Insurance companies consider the severity of the condition and how it's being managed when determining premiums. Some companies specialize in certain health conditions and may offer better rates."
+}
+# Q
+Can I obtain life insurance even if I have a health condition?
+# A
+{
+    "type": "general information",
+    "message": "Yes, though it may affect the cost of your premiums. Insurance companies consider the severity of the condition and how it's being managed when determining premiums. Some companies specialize in certain health conditions and may offer better rates."
+}
+# Q
+What are the chances of getting life insurance with a health condition?
+# A
+{
+    "type": "general information",
+    "message": "Yes, though it may affect the cost of your premiums. Insurance companies consider the severity of the condition and how it's being managed when determining premiums. Some companies specialize in certain health conditions and may offer better rates."
+}
+# Q
+Is it difficult to get life insurance if I have a health condition?
+# A
+{
+    "type": "general information",
+    "message": "Yes, though it may affect the cost of your premiums. Insurance companies consider the severity of the condition and how it's being managed when determining premiums. Some companies specialize in certain health conditions and may offer better rates."
+}
+# Q
+Are there any restrictions on obtaining life insurance with a health condition?
+# A
+{
+    "type": "general information",
+    "message": "Yes, though it may affect the cost of your premiums. Insurance companies consider the severity of the condition and how it's being managed when determining premiums. Some companies specialize in certain health conditions and may offer better rates."
+}
+# Q
 What happens if I outlive my term insurance?
+# A
+{
+    "type": "general information",
+    "message": "If you outlive your term policy, the insurance simply ends. You will need to either purchase a new policy (which might be more expensive due to your age), convert it to a whole life policy, or choose to go without coverage."
+}
+# Q
+What occurs if I outlive my term insurance?
+# A
+{
+    "type": "general information",
+    "message": "If you outlive your term policy, the insurance simply ends. You will need to either purchase a new policy (which might be more expensive due to your age), convert it to a whole life policy, or choose to go without coverage."
+}
+# Q
+What takes place if I survive my term insurance?
+# A
+{
+    "type": "general information",
+    "message": "If you outlive your term policy, the insurance simply ends. You will need to either purchase a new policy (which might be more expensive due to your age), convert it to a whole life policy, or choose to go without coverage."
+}
+# Q
+What transpires if I live beyond my term insurance?
+# A
+{
+    "type": "general information",
+    "message": "If you outlive your term policy, the insurance simply ends. You will need to either purchase a new policy (which might be more expensive due to your age), convert it to a whole life policy, or choose to go without coverage."
+}
+# Q
+What will happen if I outlast my term insurance?
+# A
+{
+    "type": "general information",
+    "message": "If you outlive your term policy, the insurance simply ends. You will need to either purchase a new policy (which might be more expensive due to your age), convert it to a whole life policy, or choose to go without coverage."
+}
+# Q
+What if I outlive my term insurance policy?
+# A
+{
+    "type": "general information",
+    "message": "If you outlive your term policy, the insurance simply ends. You will need to either purchase a new policy (which might be more expensive due to your age), convert it to a whole life policy, or choose to go without coverage."
+}
+# Q
+What happens in the event that I outlive my term insurance?
+# A
+{
+    "type": "general information",
+    "message": "If you outlive your term policy, the insurance simply ends. You will need to either purchase a new policy (which might be more expensive due to your age), convert it to a whole life policy, or choose to go without coverage."
+}
+# Q
+What occurs if my term insurance expires and I am still alive?
+# A
+{
+    "type": "general information",
+    "message": "If you outlive your term policy, the insurance simply ends. You will need to either purchase a new policy (which might be more expensive due to your age), convert it to a whole life policy, or choose to go without coverage."
+}
+# Q
+What takes place if I am alive when my term insurance ends?
+# A
+{
+    "type": "general information",
+    "message": "If you outlive your term policy, the insurance simply ends. You will need to either purchase a new policy (which might be more expensive due to your age), convert it to a whole life policy, or choose to go without coverage."
+}
+# Q
+What transpires if I outlive the term of my insurance policy?
+# A
+{
+    "type": "general information",
+    "message": "If you outlive your term policy, the insurance simply ends. You will need to either purchase a new policy (which might be more expensive due to your age), convert it to a whole life policy, or choose to go without coverage."
+}
+# Q
+What will happen if I survive the term of my insurance policy?
 # A
 {
     "type": "general information",
@@ -85,7 +886,147 @@ Can I change my coverage amount after the policy is active?
     "message": "Yes, most insurance companies allow you to change your coverage. However, keep in mind that increasing coverage might require further health checks, and could result in higher premiums."
 }
 # Q
+Is it possible to modify the coverage amount once the policy is active?
+# A
+{
+    "type": "general information",
+    "message": "Yes, most insurance companies allow you to change your coverage. However, keep in mind that increasing coverage might require further health checks, and could result in higher premiums."
+}
+# Q
+After the policy is active, can I adjust the coverage amount?
+# A
+{
+    "type": "general information",
+    "message": "Yes, most insurance companies allow you to change your coverage. However, keep in mind that increasing coverage might require further health checks, and could result in higher premiums."
+}
+# Q
+Am I allowed to change the coverage amount once the policy is already active?
+# A
+{
+    "type": "general information",
+    "message": "Yes, most insurance companies allow you to change your coverage. However, keep in mind that increasing coverage might require further health checks, and could result in higher premiums."
+}
+# Q
+Once the policy is active, can I modify the coverage amount?
+# A
+{
+    "type": "general information",
+    "message": "Yes, most insurance companies allow you to change your coverage. However, keep in mind that increasing coverage might require further health checks, and could result in higher premiums."
+}
+# Q
+Is it permissible to alter the coverage amount after the policy is active?
+# A
+{
+    "type": "general information",
+    "message": "Yes, most insurance companies allow you to change your coverage. However, keep in mind that increasing coverage might require further health checks, and could result in higher premiums."
+}
+# Q
+Can the coverage amount be changed after the policy is already active?
+# A
+{
+    "type": "general information",
+    "message": "Yes, most insurance companies allow you to change your coverage. However, keep in mind that increasing coverage might require further health checks, and could result in higher premiums."
+}
+# Q
+Is it allowed to adjust the coverage amount once the policy is active?
+# A
+{
+    "type": "general information",
+    "message": "Yes, most insurance companies allow you to change your coverage. However, keep in mind that increasing coverage might require further health checks, and could result in higher premiums."
+}
+# Q
+Once the policy is active, am I able to change the coverage amount?
+# A
+{
+    "type": "general information",
+    "message": "Yes, most insurance companies allow you to change your coverage. However, keep in mind that increasing coverage might require further health checks, and could result in higher premiums."
+}
+# Q
+Can I modify the coverage amount after the policy has been activated?
+# A
+{
+    "type": "general information",
+    "message": "Yes, most insurance companies allow you to change your coverage. However, keep in mind that increasing coverage might require further health checks, and could result in higher premiums."
+}
+# Q
+Is it possible to change the coverage amount after the policy has been activated?
+# A
+{
+    "type": "general information",
+    "message": "Yes, most insurance companies allow you to change your coverage. However, keep in mind that increasing coverage might require further health checks, and could result in higher premiums."
+}
+# Q
 If I get life insurance through my employer, do I really need a separate policy?
+# A
+{
+    "type": "general information",
+    "message": "An employer provided life insurance policy is a great benefit, but it might not provide enough coverage. Additionally, you may lose that coverage if you leave or lose your job. A separate policy can ensure that you maintain coverage regardless of your employment situation."
+}
+# Q
+Is it necessary to have a separate life insurance policy if I already have one through my employer?
+# A
+{
+    "type": "general information",
+    "message": "An employer provided life insurance policy is a great benefit, but it might not provide enough coverage. Additionally, you may lose that coverage if you leave or lose your job. A separate policy can ensure that you maintain coverage regardless of your employment situation."
+}
+# Q
+Should I consider having a separate life insurance policy if I already have coverage through my employer?
+# A
+{
+    "type": "general information",
+    "message": "An employer provided life insurance policy is a great benefit, but it might not provide enough coverage. Additionally, you may lose that coverage if you leave or lose your job. A separate policy can ensure that you maintain coverage regardless of your employment situation."
+}
+# Q
+Is it advisable to have an additional life insurance policy if I already have one through my employer?
+# A
+{
+    "type": "general information",
+    "message": "An employer provided life insurance policy is a great benefit, but it might not provide enough coverage. Additionally, you may lose that coverage if you leave or lose your job. A separate policy can ensure that you maintain coverage regardless of your employment situation."
+}
+# Q
+Do I still need a separate life insurance policy if I already have coverage through my employer?
+# A
+{
+    "type": "general information",
+    "message": "An employer provided life insurance policy is a great benefit, but it might not provide enough coverage. Additionally, you may lose that coverage if you leave or lose your job. A separate policy can ensure that you maintain coverage regardless of your employment situation."
+}
+# Q
+Is it worth having a separate life insurance policy if I already have one through my employer?
+# A
+{
+    "type": "general information",
+    "message": "An employer provided life insurance policy is a great benefit, but it might not provide enough coverage. Additionally, you may lose that coverage if you leave or lose your job. A separate policy can ensure that you maintain coverage regardless of your employment situation."
+}
+# Q
+Should I think about getting a separate life insurance policy if I already have coverage through my employer?
+# A
+{
+    "type": "general information",
+    "message": "An employer provided life insurance policy is a great benefit, but it might not provide enough coverage. Additionally, you may lose that coverage if you leave or lose your job. A separate policy can ensure that you maintain coverage regardless of your employment situation."
+}
+# Q
+Is it recommended to have a separate life insurance policy if I already have one through my employer?
+# A
+{
+    "type": "general information",
+    "message": "An employer provided life insurance policy is a great benefit, but it might not provide enough coverage. Additionally, you may lose that coverage if you leave or lose your job. A separate policy can ensure that you maintain coverage regardless of your employment situation."
+}
+# Q
+Do I really need another life insurance policy if I already have coverage through my employer?
+# A
+{
+    "type": "general information",
+    "message": "An employer provided life insurance policy is a great benefit, but it might not provide enough coverage. Additionally, you may lose that coverage if you leave or lose your job. A separate policy can ensure that you maintain coverage regardless of your employment situation."
+}
+# Q
+Is it necessary to obtain a separate life insurance policy if I already have one through my employer?
+# A
+{
+    "type": "general information",
+    "message": "An employer provided life insurance policy is a great benefit, but it might not provide enough coverage. Additionally, you may lose that coverage if you leave or lose your job. A separate policy can ensure that you maintain coverage regardless of your employment situation."
+}
+# Q
+Should I consider getting an additional life insurance policy if I already have coverage through my employer?
 # A
 {
     "type": "general information",
@@ -105,7 +1046,267 @@ I need a $500,000.00 policy that provides lifetime coverage, a level premium, an
     "amount_explanation": "This is the amount you indicated you need."
 }
 # Q
+I am looking for a policy that offers lifetime coverage, a level premium, and the accumulation of cash value, with a value of $500,000.00.
+# A
+{
+    "type": "recommendation",
+    "message": "I think you'll find that a Whole Life insurance policy best meets your needs.",
+    "policy": "Whole Life",
+    "policy_explanation": "Whole life provides a lifetime of coverage with a constant premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+My requirement is a policy with a value of $500,000.00, providing lifetime coverage, a level premium, and the growth of cash value.
+# A
+{
+    "type": "recommendation",
+    "message": "I think you'll find that a Whole Life insurance policy best meets your needs.",
+    "policy": "Whole Life",
+    "policy_explanation": "Whole life provides a lifetime of coverage with a constant premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+I would like a policy that has a value of $500,000.00, offers lifetime coverage, a level premium, and the ability to build up cash value.
+# A
+{
+    "type": "recommendation",
+    "message": "I think you'll find that a Whole Life insurance policy best meets your needs.",
+    "policy": "Whole Life",
+    "policy_explanation": "Whole life provides a lifetime of coverage with a constant premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+Can you help me find a policy that meets my needs? I am looking for a value of $500,000.00, lifetime coverage, a level premium, and the option to accumulate cash value.
+# A
+{
+    "type": "recommendation",
+    "message": "I think you'll find that a Whole Life insurance policy best meets your needs.",
+    "policy": "Whole Life",
+    "policy_explanation": "Whole life provides a lifetime of coverage with a constant premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+I need assistance in finding a policy that provides lifetime coverage, a level premium, and the opportunity to build up cash value. The policy should have a value of $500,000.00.
+# A
+{
+    "type": "recommendation",
+    "message": "I think you'll find that a Whole Life insurance policy best meets your needs.",
+    "policy": "Whole Life",
+    "policy_explanation": "Whole life provides a lifetime of coverage with a constant premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+I am interested in a policy with a value of $500,000.00, which offers lifetime coverage, a level premium, and the potential to accumulate cash value.
+# A
+{
+    "type": "recommendation",
+    "message": "I think you'll find that a Whole Life insurance policy best meets your needs.",
+    "policy": "Whole Life",
+    "policy_explanation": "Whole life provides a lifetime of coverage with a constant premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+Could you please assist me in finding a policy that meets the following criteria: lifetime coverage, a level premium, the build up of cash value, and a value of $500,000.00?
+# A
+{
+    "type": "recommendation",
+    "message": "I think you'll find that a Whole Life insurance policy best meets your needs.",
+    "policy": "Whole Life",
+    "policy_explanation": "Whole life provides a lifetime of coverage with a constant premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+I am in need of a policy that has a value of $500,000.00, provides lifetime coverage, a level premium, and allows for the growth of cash value.
+# A
+{
+    "type": "recommendation",
+    "message": "I think you'll find that a Whole Life insurance policy best meets your needs.",
+    "policy": "Whole Life",
+    "policy_explanation": "Whole life provides a lifetime of coverage with a constant premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+I would like to find a policy that offers lifetime coverage, a level premium, and the ability to build up cash value. The policy should have a value of $500,000.00.
+# A
+{
+    "type": "recommendation",
+    "message": "I think you'll find that a Whole Life insurance policy best meets your needs.",
+    "policy": "Whole Life",
+    "policy_explanation": "Whole life provides a lifetime of coverage with a constant premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+Can you recommend a policy that meets my requirements? I am looking for a value of $500,000.00, lifetime coverage, a level premium, and the option to accumulate cash value.
+# A
+{
+    "type": "recommendation",
+    "message": "I think you'll find that a Whole Life insurance policy best meets your needs.",
+    "policy": "Whole Life",
+    "policy_explanation": "Whole life provides a lifetime of coverage with a constant premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
 I need a $500,000.00 policy that provides lifetime coverage, flexible premiums, and the potential for the build up of cash value
+# A
+{
+    "type": "recommendation",
+    "message": "Universal Life insurance policy best meets your needs.",
+    "policy": "Universal Life",
+    "policy_explanation": "Universal Life provides a lifetime of coverage with a flexible premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+I am looking for a policy that offers lifetime coverage, flexible premiums, and the potential to accumulate cash value, with a coverage amount of $500,000.00.
+# A
+{
+    "type": "recommendation",
+    "message": "Universal Life insurance policy best meets your needs.",
+    "policy": "Universal Life",
+    "policy_explanation": "Universal Life provides a lifetime of coverage with a flexible premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+My requirement is a policy with a coverage amount of $500,000.00, lifetime coverage, flexible premiums, and the ability to build up cash value.
+# A
+{
+    "type": "recommendation",
+    "message": "Universal Life insurance policy best meets your needs.",
+    "policy": "Universal Life",
+    "policy_explanation": "Universal Life provides a lifetime of coverage with a flexible premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+I would like a policy that provides lifetime coverage, flexible premiums, and the potential for cash value accumulation, with a coverage amount of $500,000.00.
+# A
+{
+    "type": "recommendation",
+    "message": "Universal Life insurance policy best meets your needs.",
+    "policy": "Universal Life",
+    "policy_explanation": "Universal Life provides a lifetime of coverage with a flexible premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+Can you help me find a policy that offers flexible premiums, lifetime coverage, and the potential to build up cash value, with a coverage amount of $500,000.00?
+# A
+{
+    "type": "recommendation",
+    "message": "Universal Life insurance policy best meets your needs.",
+    "policy": "Universal Life",
+    "policy_explanation": "Universal Life provides a lifetime of coverage with a flexible premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+I am interested in a policy with a coverage amount of $500,000.00, lifetime coverage, flexible premiums, and the option to accumulate cash value.
+# A
+{
+    "type": "recommendation",
+    "message": "Universal Life insurance policy best meets your needs.",
+    "policy": "Universal Life",
+    "policy_explanation": "Universal Life provides a lifetime of coverage with a flexible premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+I need a policy that provides lifetime coverage, flexible premiums, and the potential for the accumulation of cash value, with a coverage amount of $500,000.00.
+# A
+{
+    "type": "recommendation",
+    "message": "Universal Life insurance policy best meets your needs.",
+    "policy": "Universal Life",
+    "policy_explanation": "Universal Life provides a lifetime of coverage with a flexible premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+Could you assist me in finding a policy with a coverage amount of $500,000.00, lifetime coverage, flexible premiums, and the potential to build up cash value?
+# A
+{
+    "type": "recommendation",
+    "message": "Universal Life insurance policy best meets your needs.",
+    "policy": "Universal Life",
+    "policy_explanation": "Universal Life provides a lifetime of coverage with a flexible premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+I am in need of a policy that offers flexible premiums, lifetime coverage, and the potential for cash value accumulation, with a coverage amount of $500,000.00.
+# A
+{
+    "type": "recommendation",
+    "message": "Universal Life insurance policy best meets your needs.",
+    "policy": "Universal Life",
+    "policy_explanation": "Universal Life provides a lifetime of coverage with a flexible premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+I am looking for a policy with a coverage amount of $500,000.00, lifetime coverage, flexible premiums, and the ability to accumulate cash value.
+# A
+{
+    "type": "recommendation",
+    "message": "Universal Life insurance policy best meets your needs.",
+    "policy": "Universal Life",
+    "policy_explanation": "Universal Life provides a lifetime of coverage with a flexible premium",
+    "length":"lifetime",
+    "length_explanation": "This meets your needs for insurance coverage in effect for the rest of the life",
+    "amount": 500000.00,
+    "amount_explanation": "This is the amount you indicated you need."
+}
+# Q
+Can you help me find a policy that provides lifetime coverage, flexible premiums, and the potential to build up cash value, with a coverage amount of $500,000.00?
 # A
 {
     "type": "recommendation",

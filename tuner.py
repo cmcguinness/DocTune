@@ -68,6 +68,7 @@ class Tuner:
             print(f'Waiting for completion.  Status={status["status"]}')
             time.sleep(30)
 
+        print(f'Upload complete.  Status={status["status"]}')
         return r
 
     def start_tune(self):
